@@ -1,0 +1,10 @@
+nu1 = input("Digite qualquer coisa: ")
+
+pergunta1 = nu1.isnumeric()
+perguta2= nu1.isalpha()
+p3 = nuH1.isalnum()
+p4 = nu1.isupper()
+print(pergunta1)
+print(perguta2)
+print(p3)
+print(p4)
