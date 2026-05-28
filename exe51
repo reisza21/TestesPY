@@ -1,0 +1,10 @@
+print("Vamos fazer uma PA!")
+
+termo = int(input('Digite o termo: '))
+razao = int(input('Digite a razão: '))
+
+i = 0
+for i in range(10):
+    ts = termo + i * razao
+    print(ts)
+print("PA com termo: {} e razão: {}".format(termo, razao))
