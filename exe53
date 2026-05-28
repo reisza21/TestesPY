@@ -1,0 +1,9 @@
+pa = str(input('Digite sua frase: '))
+invertida = pa[::-1]
+
+if pa == invertida.strip():
+    print(f"Palavra palíndramo. \n{pa}")
+else:
+    print("Palavra não palíndramo.")
+print("FOI")
+    
