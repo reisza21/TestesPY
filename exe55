@@ -1,0 +1,9 @@
+maior = float(input("Digitei o seu peso: "))
+menor = float(input("Digitei o seu peso: "))
+for i in range (1,5):
+    peso = float(input('Digite o seu peso: '))
+    if peso>maior:
+        maior = peso
+    elif peso<menor:
+        menor = peso
+print(f'Maior numero lido: {maior}\nMenor número lido: {menor}')
