@@ -1,0 +1,14 @@
+import random
+n1= 0
+resul = random.randint(0,10)
+p_usu = 0
+
+while n1 != resul:
+    n1 =int(input("Digite um numero: "))
+    p_usu+=1
+    if n1 == resul:
+        print(f"FIRNAMENTE, acertou!")
+    else:
+        
+        print(f"Quase!!! Tente novamente...")
+print(f"Tentativas até acerto: {p_usu}")
