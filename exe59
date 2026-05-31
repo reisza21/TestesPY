@@ -1,0 +1,35 @@
+n1 = int(input("Digite nº desejado: "))
+n2 = int(input("Digite nº desejado: "))
+f = 0
+
+while f != 5:
+  
+    print("[1] SOMAR")
+    print('[2] MULTIPLICAR')
+    print('[3] MAIOR')
+    print('[4] NOVOS NÚMEROS')
+    print('[5] SAIR DO PROGRAMA')
+    f = int(input('O que deseja? '))
+   
+    if f == 1:
+     
+        sm = n1 + n2
+        print(f"Soma de {n1} + {n2}: {sm}")
+    elif f == 2:
+        
+        mx = n1*n2
+        print(f"Multiplicação de {n1} x {n2}: {mx}")
+    elif f == 3:
+        if n1 >n2:
+            print(f'{n1} maior que {n2}')
+        elif n2 > n1:
+            print(f'{n2} maior que {n1}')
+        else:
+            print('Os dois números são iguais!')
+    elif f == 4 :
+        n1 = int(input("Digite nº desejado: "))
+        n2 = int(input("Digite nº desejado: "))
+    elif f == 5:
+        print("Fim do programa!")
+    else:
+        print('Opção inválida!!!')
