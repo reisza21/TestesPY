@@ -1,0 +1,14 @@
+import math
+
+n = 0
+fc = 0
+fm = ''
+while fm != 'S':
+    n = int(input("Digite o número que deseja calcular: "))
+    fc = math.factorial(n)
+    print(f"Factorial do número {n}: {fc:,}")
+    fm = str(input('Deseja sair [S/N]: ')).upper()
+    if fm == "S":
+        print("Obrigado pela visita!")
+    else:
+        print("Bom te ver de novo :)")
