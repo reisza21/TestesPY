@@ -1,0 +1,24 @@
+mh = 0
+velho = -1
+iD_D = 0
+name = ""
+
+for i in range (0,4):
+    nome = str(input("Digite seu nome: "))
+    idade = int(input('Digite sua idade: '))
+    s = str(input('Digite [F/M]: ')).upper()
+
+    if idade > 18 and s == "M":
+        if idade > velho: 
+             velho = idade
+             name = nome
+            
+    if idade <21 and s == "F":
+        mh +=1
+    iD_D += idade 
+   
+  
+print(f"Média do gp: {iD_D/4}")   
+print(f"Nome do homem mais velho: {name} \nIdade: {velho}")
+print(f"Soma das mulheres menores de 21: {mh}")
+        
