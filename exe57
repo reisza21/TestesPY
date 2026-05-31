@@ -1,0 +1,9 @@
+s = ""
+
+while s != "M" and s != "F":
+    s = str(input("Digite seu sexo \033[43m[F/M]\033[m: ")).upper()
+    if s == "M" or s == "F":
+        print(f'Sexo armazenado! {s}')
+    else:
+        print("Vamos tentar de novo?")
+        
